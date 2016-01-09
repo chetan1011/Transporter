@@ -1,0 +1,18 @@
+package in.zeitech.net.transporter;
+
+
+/**
+ * @author Pratik Popat 
+ * 
+ *  @info Asynchronous Receiver to handle http response
+ *
+ */
+public interface Receiver {
+	
+	public void onSuccess(String response);
+	
+	public void onFailure(String failure);
+	
+	public void onError(String error);
+
+}

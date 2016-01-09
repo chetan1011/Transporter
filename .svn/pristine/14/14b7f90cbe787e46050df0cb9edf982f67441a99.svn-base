@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Transporter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="download_cancel">Download Cancelled</string>
+    <string name="download_failed">Download Failed</string>
+    <string name="download_complete">Download Complete</string>
+    <string name="download_stopped">Download Stopped</string>
+    
+     <string name="error_connection">Connection Error</string>
+
+</resources>

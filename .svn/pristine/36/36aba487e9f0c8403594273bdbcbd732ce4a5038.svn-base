@@ -1,0 +1,17 @@
+package in.zeitech.net.transporter;
+
+import java.io.File;
+
+/**
+ * @author Pratik Popat
+ *
+ */
+public interface DownloadReceiver {
+	
+	public void onPrepareDownload();
+	
+	public void onSuccessDownload(File downloadedFile);
+
+	public void onFailedDownload(String message);
+
+}
